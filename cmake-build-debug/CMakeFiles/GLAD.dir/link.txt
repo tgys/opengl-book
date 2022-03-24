@@ -1,0 +1,2 @@
+/nix/store/5ddb4j8z84p6sjphr0kh6cbq5jd12ncs-binutils-2.35.1/bin/ar qc libGLAD.a CMakeFiles/GLAD.dir/src/glad.c.o
+/nix/store/5ddb4j8z84p6sjphr0kh6cbq5jd12ncs-binutils-2.35.1/bin/ranlib libGLAD.a

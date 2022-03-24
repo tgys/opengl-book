@@ -1,0 +1,2 @@
+/nix/store/5ddb4j8z84p6sjphr0kh6cbq5jd12ncs-binutils-2.35.1/bin/ar qc libSTB_IMAGE.a CMakeFiles/STB_IMAGE.dir/src/stb_image.cpp.o
+/nix/store/5ddb4j8z84p6sjphr0kh6cbq5jd12ncs-binutils-2.35.1/bin/ranlib libSTB_IMAGE.a
