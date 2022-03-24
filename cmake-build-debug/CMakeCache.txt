@@ -28,7 +28,7 @@ CMAKE_AR:FILEPATH=/nix/store/5ddb4j8z84p6sjphr0kh6cbq5jd12ncs-binutils-2.35.1/bi
 
 //Choose the type of build, options are: None Debug Release RelWithDebInfo
 // MinSizeRel ...
-CMAKE_BUILD_TYPE:STRING=Debug
+CMAKE_BUILD_TYPE:STRING=DEBUG
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
@@ -232,6 +232,9 @@ GLFW3_INCLUDE_DIR:PATH=/nix/store/a0j4adpnc5z9000lrhil0sv1xcj9y87k-glfw-3.3.4/in
 
 //Path to a library.
 GLFW3_LIBRARY:FILEPATH=/nix/store/a0j4adpnc5z9000lrhil0sv1xcj9y87k-glfw-3.3.4/lib/libglfw.so
+
+//The directory containing a CMake configuration file for GLM.
+GLM_DIR:PATH=GLM_DIR-NOTFOUND
 
 //Path to a file.
 GLM_INCLUDE_DIR:PATH=/home/tei/projects/LearnOpenGL/includes
